@@ -1,0 +1,17 @@
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+int num;
+printf("enter number : \n");
+scanf("%d",&num);
+if(num==2 || num%2==1)
+{
+  printf("\n %d is a prime number");
+}
+else
+{ 
+   printf("%d if a prime number");
+ }
+getch();
+}
